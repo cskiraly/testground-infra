@@ -17,10 +17,10 @@ sudo docker pull jettech/kube-webhook-certgen:v1.3.0
 sudo docker pull jimmidyson/configmap-reload:v0.3.0
 sudo docker pull k8s.gcr.io/cluster-proportional-autoscaler-amd64:1.8.1
 sudo docker pull k8s.gcr.io/coredns:1.6.7
-sudo docker pull k8s.gcr.io/kube-apiserver:v1.18.10
-sudo docker pull k8s.gcr.io/kube-controller-manager:v1.18.10
-sudo docker pull k8s.gcr.io/kube-proxy:v1.18.10
-sudo docker pull k8s.gcr.io/kube-scheduler:v1.18.10
+sudo docker pull k8s.gcr.io/kube-apiserver:v1.19.16
+sudo docker pull k8s.gcr.io/kube-controller-manager:v1.19.16
+sudo docker pull k8s.gcr.io/kube-proxy:v1.19.16
+sudo docker pull k8s.gcr.io/kube-scheduler:v1.19.16
 sudo docker pull k8s.gcr.io/pause-amd64:3.2
 sudo docker pull kiwigrid/k8s-sidecar:0.1.151
 sudo docker pull kope/dns-controller:1.18.2
